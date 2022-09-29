@@ -7,8 +7,13 @@ const CalculateSection = ({ times }) => {
   const [breaktimes, setBreakTimes] = useState(0);
 
   const breakTime = (e) => {
-    const localTime = e.target.innerText
-    setBreakTimes(localTime) 
+    // const localTime = e.target.innerText;
+    // setBreakTimes();
+    localStorage.setItem('newTime', e.target.innerText);
+    let newLocalTime = localStorage.getItem('newTime');
+    console.log(newLocalTime);
+    setBreakTimes(newLocalTime);
+    return newLocalTime;
   };
 
   return (
