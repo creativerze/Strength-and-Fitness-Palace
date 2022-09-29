@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import MyDetails from '../MyDetails/MyDetails';
-import './CalculateSection.css'
+import './CalculateSection.css';
 
-const CalculateSection = () => {
+const CalculateSection = ({ times }) => {
+  const [brkTime, setBrkTime] = useState(0);
+
+ 
   return (
     <div>
       <h2>From Calculate Section</h2>
@@ -16,12 +19,14 @@ const CalculateSection = () => {
 
       <div className="">
         <h3>Exercise Details</h3>
-        <h3>Exercise time: </h3>
+        <h3>Exercise time: {times} <small>Secounds</small></h3>
         <h3>Break time</h3>
         <button className='activity-btn'>Activity Completed</button>
       </div>
     </div>
   );
 };
+
+
 
 export default CalculateSection;

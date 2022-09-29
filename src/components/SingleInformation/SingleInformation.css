@@ -1,5 +1,7 @@
 .single-card{
   padding: 5px;
+  margin-bottom: 10px;
+  /* border: 2px solid #041C32; */
   /* text-align: center; */
 }
 .single-card img{
@@ -11,4 +13,14 @@
 
 .card-info{
   /* text-align: start; */
+}
+
+.add-to-list-btn{
+  padding: 10px 15px;
+  width: 100%;
+  background-color: #041C32;
+  color: white;
+  font-weight: 700;
+  border: 0;
+  border-radius: 5px;
 }

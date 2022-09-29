@@ -1,9 +1,11 @@
-import React from 'react';
-import './SingleInformation.css'
+import './SingleInformation.css';
 
-const SingleInformation = ({ card }) => {
+const SingleInformation = ({ card,timeBtn}) => {
   const { picture, name, about, age, time } = card;
-  console.log(name);
+  // const [times, setTimes] = useState(0);
+
+  
+  // console.log(name);
   return (
     <div>
       <div className="single-card">
@@ -14,6 +16,7 @@ const SingleInformation = ({ card }) => {
           <h4>For Age: {age}</h4>
           <h4>Time required: {time}s</h4>
         </div>
+        <button onClick={()=>timeBtn(card)} className='add-to-list-btn'>Add to list</button>
       </div>
     </div>
   );
