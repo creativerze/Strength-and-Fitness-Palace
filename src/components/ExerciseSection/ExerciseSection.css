@@ -1,11 +1,13 @@
-.all-sections{
+.exercise-title {
+  margin: 50px;
+}
+.all-sections {
   display: grid;
   grid-template-columns: 3fr 1fr;
 }
-.all-card{
+.all-card {
   margin: 50px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
 }
-

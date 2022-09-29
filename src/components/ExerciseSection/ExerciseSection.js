@@ -23,7 +23,7 @@ const ExerciseSection = () => {
 
   return (
     <div className=''>
-      <h3>Select today's exercise</h3>
+      <h3 className='exercise-title'>Select today's exercise</h3>
       <div className="all-sections">
         <div className='all-card'>
           {

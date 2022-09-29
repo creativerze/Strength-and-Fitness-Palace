@@ -5,7 +5,9 @@ import ExerciseSection from './components/ExerciseSection/ExerciseSection';
 function App() {
   return (
     <div className="App">
-      <h2>Strength and Fitness Palace</h2>
+      <div className="App-New-Title">
+        <h2><i className='bi bi-award-fill'></i> Strength and Fitness Palace</h2>
+      </div>
       <ExerciseSection></ExerciseSection>
     </div>
   );
