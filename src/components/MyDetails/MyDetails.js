@@ -5,7 +5,7 @@ const MyDetails = () => {
   return (
     <div className='my-full-detail'>
       <img src="" alt="" />
-      <h2>Kowsar Mahmud Remon</h2>
+      <h3>Kowsar Mahmud Remon</h3>
       <div className="my-detail">
         <h5>68 kg <br />Weight:</h5>
         <h5>5'11" <br />Height</h5>

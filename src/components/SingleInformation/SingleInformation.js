@@ -11,10 +11,10 @@ const SingleInformation = ({ card,timeBtn}) => {
       <div className="single-card">
         <img src={picture} alt="" />
         <div className="card-info">
-          <h3>{name}</h3>
+          <h4>{name}</h4>
           <p>{about}</p>
-          <h4>For Age: {age}</h4>
-          <h4>Time required: {time}s</h4>
+          <h5>For Age: {age}</h5>
+          <h5>Time required: {time}s</h5>
         </div>
         <button onClick={()=>timeBtn(card)} className='add-to-list-btn'>Add to list</button>
       </div>

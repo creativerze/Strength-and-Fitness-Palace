@@ -1,6 +1,8 @@
 .single-card{
   padding: 5px;
   margin-bottom: 10px;
+  border: 1px solid silver;
+  border-radius: 10px;
   /* border: 2px solid #041C32; */
   /* text-align: center; */
 }

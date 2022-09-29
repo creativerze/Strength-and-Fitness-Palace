@@ -1,5 +1,5 @@
 .exercise-title {
-  margin: 50px;
+  margin: 50px 50px 0px 50px;
 }
 .all-sections {
   display: grid;
@@ -10,4 +10,14 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
+}
+
+@media screen and (max-width: 576px){
+  .all-sections {
+    grid-template-columns:1fr;
+  }
+  .all-card {
+    margin: 10px;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

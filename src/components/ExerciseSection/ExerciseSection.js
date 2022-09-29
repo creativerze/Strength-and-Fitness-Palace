@@ -23,7 +23,7 @@ const ExerciseSection = () => {
 
   return (
     <div className=''>
-      <h3 className='exercise-title'>Select today's exercise</h3>
+      <h4 className='exercise-title'>Select exercise</h4>
       <div className="all-sections">
         <div className='all-card'>
           {
@@ -34,7 +34,7 @@ const ExerciseSection = () => {
             ></SingleInformation>)
           }
         </div>
-        <div className="">
+        <div className="ps-5 ps-md-0">
           <CalculateSection
             times={times}
           ></CalculateSection>
