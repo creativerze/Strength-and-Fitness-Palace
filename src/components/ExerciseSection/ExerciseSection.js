@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import CalculateSection from '../CalculateSection/CalculateSection';
+import Question from '../Question/Question';
 import SingleInformation from '../SingleInformation/SingleInformation';
 import './ExerciseSection.css';
 
@@ -39,6 +40,7 @@ const ExerciseSection = () => {
           ></CalculateSection>
         </div>
       </div>
+      <Question></Question>
     </div>
   );
 };

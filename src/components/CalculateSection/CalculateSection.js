@@ -3,11 +3,15 @@ import MyDetails from '../MyDetails/MyDetails';
 import './CalculateSection.css';
 
 const CalculateSection = ({ times }) => {
-  const [brkTime, setBrkTime] = useState(0);
+  // const [brkTime, setBrkTime] = useState(0);
   const [breaktimes, setBreakTimes] = useState(0);
 
   const breakTime = (e) => {
-    setBreakTimes(e.target.innerText);
+    const localTime = e.target.innerText
+    localStorage.setItem("Break-Time", localTime);
+    const localStorageTime = localStorage.getItem('Break-Time')
+    setBreakTimes(localStorageTime)
+    
   };
 
   return (
