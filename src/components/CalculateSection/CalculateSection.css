@@ -1,0 +1,15 @@
+.time-btn{
+  padding: 10px 15px;
+  margin-right: 5px;
+  /* border: 0; */
+  /* background-color: silver; */
+  /* border-radius: 5px; */
+}
+.activity-btn{
+  padding: 10px 15px;
+  width: 100%;
+  font-weight: 700;
+  color: white;
+  background-color: #041C32;
+  border-radius: 5px;
+}

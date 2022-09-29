@@ -1,0 +1,62 @@
+[
+  {
+    "id": "63351c9a0d8c0a0ea6788e7c",
+    "picture": "https://www.mensjournal.com/wp-content/uploads/mf/the_15_most_important_exercises_for_men_main.jpg?quality=70&strip=all",
+    "time": 36,
+    "age": 18,
+    "name": "Deadlift",
+    "gender": "male",
+    "company": "BUZZWORKS",
+    "about": "Arguably the king of all exercises, the deadlift hits every major muscle group hard, and is perhaps the greatest test of strength there is. Because of all the muscles involved.\r\n"
+  },
+  {
+    "id": "63351c9a2603a9acfa8e244b",
+    "picture": "https://www.mensjournal.com/wp-content/uploads/mf/15-best-exercises-squat.jpg?quality=86&strip=all",
+    "time": 21,
+    "age": 16,
+    "name": "Back squat",
+    "gender": "female",
+    "company": "FUTURITY",
+    "about": "Just like the deadlift, the barbell back squat hits just about every major muscle group there is in the body and is the king of leg-developing movements.\r\n"
+  },
+  {
+    "id": "63351c9a5e859e80819eee25",
+    "picture": "https://www.mensjournal.com/wp-content/uploads/mf/dumbbell-bench-press-chest-weights-main.jpg?quality=86&strip=all",
+    "time": 22,
+    "age": 19,
+    "name": "Bench Press",
+    "gender": "female",
+    "company": "ENTROFLEX",
+    "about": "Every gym-goer in the world has been asked “Whaddya bench?” at least once. This move is responsible for developing powerful.\r\n"
+  },
+  {
+    "id": "63351c9a3a290f14eec60ff2",
+    "picture": "https://www.mensjournal.com/wp-content/uploads/mf/15-best-exercises-suspended-push-up.jpg?quality=86&strip=all",
+    "time": 38,
+    "age": 24,
+    "name": "Suspended pushup",
+    "gender": "female",
+    "company": "LUNCHPOD",
+    "about": "Trainers far and wide have touted the usefulness of suspension-training systems like the TRX for years, and the fitness population is starting to catch on.\r\n"
+  },
+  {
+    "id": "63351c9ab3f09235cef7c568",
+    "picture": "https://www.mensjournal.com/wp-content/uploads/mf/15-best-exercises-medicine-ball-slam.jpg?quality=86&strip=all",
+    "time": 37,
+    "age": 22,
+    "name": "Medicine ball slam",
+    "gender": "female",
+    "company": "EVENTAGE",
+    "about": "Some guys work for a lifetime to develop a ripped midsection like the fitness models we see in magazines.\r\n"
+  },
+  {
+    "id": "63351c9a80fc1de1345b35ec",
+    "picture": "https://www.mensjournal.com/wp-content/uploads/mf/_main_bbhipthrust.jpg?quality=86&strip=all",
+    "time": 21,
+    "age": 17,
+    "name": "Barbell hip thrust",
+    "gender": "female",
+    "company": "NORSUP",
+    "about": "The biggest set of muscles in your body (relative size) are the glutes. This move hits them directly.\r\n"
+  }
+]
